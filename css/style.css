@@ -30,7 +30,9 @@ body {
 	position: absolute;
 	z-index: 3;
 	opacity: .8;
-	top: 270px;
+	top: 340px;
+	left: 300px;
+
 }
 
 .thumbnail {
@@ -47,6 +49,7 @@ body {
 #nav {
 	clear: both;
 	position: relative;
+	left: 500px;
 }
 
 #prevPhoto {
@@ -66,7 +69,6 @@ border: 1px black dashed;
 #nextPhoto {
 	height: 42px;
 	width: 42px;
-	margin-right: 280;
 }
 
 #myButton:hover {
