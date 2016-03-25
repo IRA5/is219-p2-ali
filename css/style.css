@@ -32,7 +32,11 @@ body {
 	opacity: .8;
 	top: 340px;
 	left: 300px;
-
+	-webkit-transform: rotate(510deg);
+	 -moz-transform: rotate(510deg);
+	 -o-transform: rotate(510deg);
+ 	-ms-transform: rotate(510deg);
+ 	transform: rotate(510deg);
 }
 
 .thumbnail {
@@ -60,7 +64,7 @@ body {
  	-o-transform: rotate(180deg);
  	-ms-transform: rotate(180deg);
  	transform: rotate(180deg);
-}
+ }
 
 #myButton {
 border: 1px black dashed;
@@ -77,12 +81,14 @@ border: 1px black dashed;
 
 .details p {
 	margin-top: 20px;
+	
 }
 .details {
 	border: 1px #000 dashed;
 	padding: 0px 10px;
 	margin: 20px 0px;
 }
+	
 
 /*Add CSS styles to rotate the element 90deg
 Make it animate nicely. You'll need CSS3 for this*/

@@ -63,8 +63,9 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 	return function(e) {
 		galleryImage.img = e.target;
 		mImages.push(galleryImage);
-	}
+		
 }
+
 
 $(document).ready( function() {
 	
@@ -80,9 +81,9 @@ window.addEventListener('load', function() {
 }, false);
 
 function GalleryImage() {
-	//implement me as an object to hold the following data about an image:
-	//1. location where photo was taken
-	//2. description of photo
-	//3. the date when the photo was taken
-	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
+	location: australia,
+	description: australia,
+	date: 07/14/2016,
+	www.bing.com/images/search?q=australia&view=detailv2&&id=8A10251A054EFCA69A3E91302C00716A30EDE358&selectedIndex=42&ccid=ShZrt38h&simid=607986040821911266&thid=OIP.M4a166bb77f2195d21d07a045cf572f96H0&ajaxhist=0;
+	return this.location + 'this.description' + 'this.date';
 }
