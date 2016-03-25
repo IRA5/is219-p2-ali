@@ -47,14 +47,14 @@ var mCurrentIndex = 0;
 var mRequest = new XMLHttpRequest();
 
 // Array holding GalleryImage objects (see below).
-var mImages = [];
+var mImages = [https://www.bing.com/images/search?q=australia&view=detailv2&&id=8A10251A054EFCA69A3E91302C00716A30EDE358&selectedIndex=42&ccid=ShZrt38h&simid=607986040821911266&thid=OIP.M4a166bb77f2195d21d07a045cf572f96H0&ajaxhist=0];
 
 // Holds the retrived JSON information
 var mJson;
 
 // URL for the JSON to load by default
 // Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = 'https://www.bing.com/images/search?q=australia+photo&view=detailv2&&id=6EA9F347925C4C554F93B63C57622EA37FF2509D&selectedIndex=0&ccid=1VvdJ1Bt&simid=608043795255003576&thid=OIP.Md55bdd27506dd950e8420d3a16b62690H0&ajaxhist=0';
+var mUrl = 'insert_url_here_to_image_json';
 
 
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
