@@ -41,7 +41,7 @@ function swapPhoto() {
 }
 
 // Counter for the mImages array
-var mCurrentIndex = 0;
+var mCurrentIndex = 500;
 
 // XMLHttpRequest variable
 var mRequest = new XMLHttpRequest();

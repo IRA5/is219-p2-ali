@@ -32,11 +32,6 @@ body {
 	opacity: .8;
 	top: 340px;
 	left: 300px;
-	-webkit-transform: rotate(510deg);
-	 -moz-transform: rotate(510deg);
-	 -o-transform: rotate(510deg);
- 	-ms-transform: rotate(510deg);
- 	transform: rotate(510deg);
 }
 
 .thumbnail {
@@ -53,36 +48,27 @@ body {
 #nav {
 	clear: both;
 	position: relative;
-	left: 500px;
 }
 
 #prevPhoto {
 	height: 42px;
 	width: 42px;
 	webkit-transform: rotate(180deg);
- 	-moz-transform: rotate(180deg);
- 	-o-transform: rotate(180deg);
  	-ms-transform: rotate(180deg);
  	transform: rotate(180deg);
- }
-
-#myButton {
-border: 1px black dashed;
+ 
 }
 
 #nextPhoto {
 	height: 42px;
 	width: 42px;
-}
-
-#myButton:hover {
- border: 2px black solid;
+	float: right;
 }
 
 .details p {
-	margin-top: 20px;
-	
+	margin-top: 20px;	
 }
+
 .details {
 	border: 1px #000 dashed;
 	padding: 0px 10px;
